@@ -1,0 +1,34 @@
+html{
+    background-color:antiquewhite;
+    background-image:linear-gradient(white,black);
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.menu{
+    background-color:white;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.heading{
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.link1{
+    color: black;
+    font-family: sans-serif;
+}
+

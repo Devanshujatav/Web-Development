@@ -1,0 +1,71 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif ;
+}
+
+body{
+    background-color:azure;
+    color: #121212;
+    text-align: center;
+}
+
+
+.heading{
+    margin: 15px;
+    font-weight: bolder;
+}
+
+#navbar{
+    margin: 15px;
+}
+
+.home-button{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.home-button-area{
+    text-decoration: none;
+    color: #121212;
+}
+
+.YT-button{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.YT-button-area{
+    text-decoration: none;
+    color: #121212;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#white{
+    background-color: white;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+

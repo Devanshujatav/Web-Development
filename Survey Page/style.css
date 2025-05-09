@@ -1,0 +1,45 @@
+#color{
+    background-color: #05c46b;
+}
+
+#label-name{
+    margin-top: 20px;
+}
+.main{
+    height: 50%;
+    width: 50%;
+    background-color: aliceblue;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+#form-control{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#fname{
+    width: 710px;
+    height: 40px;
+}
+
+#lname{
+    width: 710px;
+    height: 40px;
+}
+
+#aname{
+    width: 710px;
+    height: 40px;
+}
+
+#role{
+    width: 710px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.option{
+    margin-left: 30px;
+    margin-top: 20px;
+}

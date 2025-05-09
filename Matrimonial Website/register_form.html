@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+</head>
+<body>
+
+    <form action="target">
+        <h1>Registration Form</h1>
+        <h2>All fields are mandatory</h2>
+        <form action="" method="get">
+            <label for="fname">Name </label>
+            <input type="text" name="" id="fname" placeholder="Enter your Name">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email">
+            <br>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+        </form>
+    
+        <form action="" method="get">
+            <fieldset>
+                <legend>Are You Intrestred In Dating</legend>
+                <input type="radio" name="Dating" id="yes">
+                <label for="yes">Yes</label>
+                <br>
+                <input type="radio" name="Dating" id="no">
+                <label for="no">No</label>
+            </fieldset>
+        </form>
+    
+        <h3>Your Expectations like</h3>
+        <select name="Expectations" id="likes">
+            <option value="loyal">loyal</option>
+            <option value="respect">Respectful</option>
+        </select>
+    
+        <h4>Your preferences and Extra Information</h4>
+        <textarea name="feedback" id="" rows="8" cols="80"></textarea>
+        <input type="submit" value="register" formaction="./thankyou_page.html">
+    </form>
+
+</body>
+</html>

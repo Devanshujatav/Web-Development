@@ -1,0 +1,84 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif ;
+}
+
+body{
+    background-color: #121212; 
+    /* #olive black */
+    color:  #ffffff;
+}
+
+.navbar{
+    /* background-color:  #2e382e;    */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.home-button{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    /* background-color: #00FF7F; */
+    font-size: large;
+    font-weight: bold;
+}
+
+.home-button-area{
+    text-decoration: none;
+    color: #000;
+}
+
+.YT-button{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    /* background-color: #00FF7F; */
+    font-size: large;
+    font-weight: bold;   
+}
+
+.YT-button-area{
+    text-decoration: none;
+    color: #000;
+}
+
+.main-section{
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.heading{
+    color: #BB86FC;
+    margin-top: 2%;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* margin-top:; */
+}
+
+.project-link{
+    background-color: #BB86FC;
+    width: 70%;
+    padding: 20px;
+    text-decoration: none;
+    color: #121212;
+    border-radius: 25px;
+}
+
+
+.project-link:hover{
+    background-color: #03DAC6;
+    color: #121212;
+}
